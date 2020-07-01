@@ -23,7 +23,7 @@
 <li>Adguard 的广告拦截器"Fanboy's Enhanced Tracking List"会导致脚本异常</li><br>
 <li>另附批改网写作页面相关的重要js地址: <a href="http://cdn.pigai.org//res/javascript/spss.js">spss.js</a> ,直接用chrome, firefox, edge, opera打开均会乱码, 移动端大部分主流浏览器不会乱码, 建议下载到本地使用utf-8编码查看.&nbsp&nbsp(右键→"Save link as...")</li><br>
 <br>
-<li>个人用来练手的脚本, 如果有bug请自行更改代码, 也可<del><a href="https://greasyfork.org/zh-CN/forum/post/discussion?script=393386" target="_blank">反馈</a>或者</del><a href=https://github.com/Smoke-N-Mirrors/-pigai-toolkit/issues>在Github提issue</a>, 反馈时最好带上<b><u>浏览器名称以及版本</u></b>, <b><u>操作系统环境</u></b>, 以及<b><u>控制台信息的截图</u></b>(F12打开控制台后console的内容)</li><br>
+<li>个人用来练手的脚本, 如果有bug请自行更改代码, 也可<a href="https://greasyfork.org/zh-CN/forum/post/discussion?script=393386" target="_blank">反馈</a>或者<a href="https://github.com/consideration-ak/pigaiwang-toolkit/issues">在Github提issue</a>, 反馈时最好带上<b><u>浏览器名称以及版本</u></b>, <b><u>操作系统环境</u></b>, 以及<b><u>控制台信息的截图</u></b>(F12打开控制台后console的内容)</li><br>
 <li>代码以<a href="https://spdx.org/licenses/GPL-3.0-only.html?tdsourcetag=s_pctim_aiomsg">GNU General Public License v3.0 only</a>开源</li>
 </ul>
 <dl>
