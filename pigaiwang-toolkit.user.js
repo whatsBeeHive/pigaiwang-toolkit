@@ -6,7 +6,7 @@
 // @require      https://code.jquery.com/jquery-3.4.1.min.js
 // @namespace    http://tampermonkey.net/
 // @homepageURL  https://github.com/Smoke-N-Mirrors/-pigai-toolkit
-// @version      2.3.9
+// @version      2.3.10
 // @description  批改网全能工具, 主要功能: 破解禁止粘贴, 禁止拖拽的限制, 查看相似详情(勿传播,怕被和谐), 增加统计字数按钮, 填充题目, 禁用时间限制(如果有的话).
 // @author       Permission
 // @match        *://*.pigai.org/*?c=v2*&a=write*
@@ -32,7 +32,7 @@
 
 //--------------代码以GPL-3.0-only开源, 请遵守协议--------------//
 //-----------------批改网工具箱 BY Permission-----------------//
-/* Github https://github.com/Smoke-N-Mirrors/-pigai-toolkit */
+/* Github https://github.com/consideration-ak/pigaiwang-toolkit/tree/master */
 /* Greasy Fork https://greasyfork.org/zh-CN/scripts/393386 */
 
 /**
@@ -47,7 +47,7 @@
  */
 
 /**
- * Version 2.3.9
+ * Version 2.3.10
  */
 
 /* All SVG icons are from "https://github.com/Remix-Design/remixicon" under Apache License 2.0, with attr "width" and "height" changed*/
@@ -425,10 +425,10 @@ const toolkit = {
 
     init: async () => {
         GM_registerMenuCommand("提个issue",() => {
-            window.open(`https://github.com/Smoke-N-Mirrors/-pigai-toolkit/issues`);
+            window.open(`https://github.com/consideration-ak/pigaiwang-toolkit/issues`);
         });
         GM_registerMenuCommand("使用说明",() => {
-            window.open(`https://github.com/Smoke-N-Mirrors/-pigai-toolkit`);
+            window.open(`https://github.com/consideration-ak/pigaiwang-toolkit/tree/master`);
         });
         GM_registerMenuCommand("强制跳转到新版",() => {
             document.cookie = "old=2017;path=/";
@@ -599,7 +599,7 @@ const toolkit = {
             let em = prompt("脚本初始化出现问题, 已停止. 您可以点击'确认'进行反馈, 也可以点击'取消'忽略警告. 错误信息:", e.message);
             if (em !== null) {
                 let m=encodeURIComponent(window.location.href);
-                GM_openInTab(`https://github.com/Smoke-N-Mirrors/-pigai-toolkit/issues/new?title=报错:${e.message} url:${m}`, {loadInBackground: true});
+                GM_openInTab(`https://github.com/consideration-ak/pigaiwang-toolkit/issues/new?title=报错:${e.message} url:${m} (请把这一段标题剪切到内容中)`, {loadInBackground: true});
             }
             GM_setClipboard("$('#contents').unbind();", {type: 'text', mimetype: 'text/plain'});
             prompt("如果破解禁止粘贴失败, 请在控制台console中手动输入如下代码(f12打开控制台)(已复制到剪切板)", "$('#contents').unbind();");
