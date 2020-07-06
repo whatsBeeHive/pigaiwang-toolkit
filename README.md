@@ -1,7 +1,7 @@
 <center><h1>破解批改网<del>禁止粘贴, 禁止拖拽</del>的限制,自动填充题目, 禁用<del>时间限制</del>, etc</h1></center>
 <hr>
 <dl>
-  <dd><center>之前的Github账号被莫名其妙封禁, 白瞎了大量的star, 这是新号. 话说美国这是新冠病入膏肓了? 都开始随便封禁帐号了, 服气嗷~~~</center></dd>
+  <dd><center>之前的Github账号被莫名其妙封🈲, 白瞎了大量的star, 这是新号. 话说美国这是新冠病入膏肓了? 都开始随便封禁帐号了, 服气嗷~~~</center></dd>
 <dd>如果觉得本脚本不错的话请给个免费的star~使用前请先仔细看下方介绍, 如果您之前没有接触过用户脚本(user scripts), 请先进行了解 <a href="https://greasyfork.org/zh-CN/help/installing-user-scripts" title="帮助">传送门</a></dd>
 </dl>
 <ul>
