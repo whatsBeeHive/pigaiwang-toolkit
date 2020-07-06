@@ -5,8 +5,8 @@
 // @require      https://greasyfork.org/scripts/401587-%E5%AD%97%E4%BD%93%E6%A0%B7%E5%BC%8F/code/%E5%AD%97%E4%BD%93%E6%A0%B7%E5%BC%8F.js?version=795502
 // @require      https://code.jquery.com/jquery-3.4.1.min.js
 // @namespace    http://tampermonkey.net/
-// @homepageURL  https://github.com/Smoke-N-Mirrors/-pigai-toolkit
-// @version      2.3.11
+// @homepageURL  https://github.com/consideration-ak/pigaiwang-toolkit
+// @version      2.3.12
 // @description  批改网全能工具, 主要功能: 破解禁止粘贴, 禁止拖拽的限制, 查看相似详情(勿传播,怕被和谐), 增加统计字数按钮, 填充题目, 禁用时间限制(如果有的话).
 // @author       Permission
 // @match        *://*.pigai.org/*?c=v2*&a=write*
@@ -27,12 +27,12 @@
 // @run-at       document-idle
 // @noframes
 // @contributionURL https://i.loli.net/2020/04/13/EBpmgMvVLlKFux1.png
-// @supportURL   https://github.com/Smoke-N-Mirrors/-pigai-toolkit/issues
+// @supportURL   https://github.com/consideration-ak/pigaiwang-toolkit/issues
 // ==/UserScript==
 
 //--------------代码以GPL-3.0-only开源, 请遵守协议--------------//
 //-----------------批改网工具箱 BY Permission-----------------//
-/* Github https://github.com/consideration-ak/pigaiwang-toolkit/tree/master */
+/* Github https://github.com/consideration-ak/pigaiwang-toolkit */
 /* Greasy Fork https://greasyfork.org/zh-CN/scripts/393386 */
 
 /**
@@ -47,7 +47,7 @@
  */
 
 /**
- * Version 2.3.11
+ * Version 2.3.12
  */
 
 /* All SVG icons are from "https://github.com/Remix-Design/remixicon" under Apache License 2.0, with attr "width" and "height" changed*/
