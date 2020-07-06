@@ -1,7 +1,8 @@
 <center><h1>破解批改网<del>禁止粘贴, 禁止拖拽</del>的限制,自动填充题目, 禁用<del>时间限制</del>, etc</h1></center>
 <hr>
 <dl>
-<dd>如果觉得本脚本不错的话请给好评或者收藏哦~使用前请先仔细看下方介绍, 如果您之前没有接触过用户脚本(user scripts), 请先进行了解 <a href="https://greasyfork.org/zh-CN/help/installing-user-scripts" title="帮助">传送门</a></dd>
+  <dd><center>之前的Github账号被莫名其妙封禁, 白瞎了大量的star, 这是新号. 话说美国这是新冠病入膏肓了? 都开始随便封禁帐号了, 服气嗷~~~</center></dd>
+<dd>如果觉得本脚本不错的话请给个免费的star~使用前请先仔细看下方介绍, 如果您之前没有接触过用户脚本(user scripts), 请先进行了解 <a href="https://greasyfork.org/zh-CN/help/installing-user-scripts" title="帮助">传送门</a></dd>
 </dl>
 <ul>
 <li>最近有同学问我能不能有强制补交功能, 这个我试了, 是不能的, 模拟请求会被服务器端拒绝, 真要实现只能找漏洞攻击, 不过我也不是什么黑客, 没这个能耐(捂脸)</li><br>
